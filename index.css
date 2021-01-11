@@ -374,11 +374,11 @@ article.filterBtnWrapper {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    border:1px solid #cccccc;
+    border:1px solid orange;
     font-family: 'Oswald', sans-serif;
    font-size: 14px;
     cursor: pointer;
-    color:orange;
+    color:darkblue;
 }
 
 section.genWrapper{
