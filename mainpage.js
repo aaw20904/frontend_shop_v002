@@ -835,7 +835,7 @@ function PseudoServer () {
   };
 
   return {
-    /* for a 'cart-Wiew' */
+    /* for a 'cart-view' */
     stockQueryForCart: function (id) {
       var returnedValue = {};
       returnedValue = Object.assign({}, goodsInfo[id]);
@@ -844,7 +844,7 @@ function PseudoServer () {
       delete returnedValue.keys;
       return returnedValue;
     },
-    /* for a 'goods-wiew' */
+    /* for a 'goods-view' */
     stockInfoGoodsQuery: function (id) {
       var returnedValue = {};
       returnedValue = Object.assign({}, goodsInfo[id]);
