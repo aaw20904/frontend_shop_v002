@@ -382,6 +382,11 @@ article.filterBtnWrapper {
     background-color: #eeffcc;
 }
 
+article.filterBtnWrapper:hover{
+    background-color: blue;
+    color: white;
+}
+
 section.genWrapper{
     display:flex;
     flex-flow: row wrap;
