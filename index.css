@@ -383,9 +383,26 @@ article.filterBtnWrapper {
 }
 
 article.filterBtnWrapper:hover{
-    background-color: blue;
-    color: white;
+    -webkit-animation-name: ani123;
+	        animation-name: ani123;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
+
+@keyframes  ani123{
+    from{
+        color:darkblue;
+    background-color: #eeffcc;
+    }
+    
+    to {
+        background-color: blue;
+        color: white;
+    }
+}
+
 
 section.genWrapper{
     display:flex;
